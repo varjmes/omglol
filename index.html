@@ -26,6 +26,10 @@
         margin-left: 0.25em;
       }
 
+      .logotype {
+        color: var(--grey-0) !important;
+      }
+
       aside {
         display: none;
         max-width: 500px;
@@ -75,6 +79,20 @@
       figure img:hover {
         cursor: pointer;
         box-shadow: 1px 16px 29px -5px rgba(0, 0, 0, 0.75);
+      }
+
+      footer {
+        border: none;
+        margin: 0;
+      }
+
+      footer a {
+        margin: 0 5px;
+      }
+
+      footer a:first-of-type {
+        margin-left: 0;
+        padding-left: 0;
       }
 
       .modal {
@@ -187,45 +205,67 @@
         <img
           class="modal-trigger"
           src="https://i.imgur.com/wO0dmJd.png"
-          alt=""
+          alt="A pixel art piece. An orange leaved tree with a dark think trunk sits on a grey background. A few leaves have fallen off into the wind."
         />
       </figure>
       <figure>
         <img
           class="modal-trigger"
           src="https://i.imgur.com/9HlZjA8.png"
-          alt=""
+          alt="A pixel art piece. A white castle with blue turrets faces us head on. It's sitting on a floating island just wider than the castle. All is backed by a pink setting sky and a few fluffy clouds."
         />
       </figure>
       <figure>
         <img
           class="modal-trigger"
           src="https://i.imgur.com/LbgU9bQ.png"
-          alt=""
+          alt="A pixel art rendition of the famously botched restoration of Ecce Homo."
         />
       </figure>
       <figure>
         <img
           class="modal-trigger"
           src="https://i.imgur.com/xptgTIl.png"
-          alt=""
+          alt="A pixel art piece. A birds eye view of farmland surrounded by a large forest with a river running between it."
         />
       </figure>
       <figure>
         <img
           class="modal-trigger"
           src="https://i.imgur.com/pCxupNe.gif"
-          alt=""
+          alt="An animated pixel art piece. A magpie is perched atop a locked treasure chest. Both bird and chest are glowing a pulsating light blue."
         />
       </figure>
       <figure>
         <img
           class="modal-trigger"
           src="https://i.imgur.com/auNPhf8.png"
-          alt=""
+          alt="A digital drawing in a painterly style. A dimly lit bagel sits on a black background. Sesame seeds floating in space, the center of the bagel reads 'Sucked into a bagel', referencing the film Everything Everywhere All at Once (2022)."
+        />
+      </figure>
+      <figure>
+        <img
+          class="modal-trigger"
+          src="https://i.imgur.com/S4xHufv.png"
+          alt="A grayscale pixel art piece. Batman is standing on a roof within a line of building roofs. There are tall skyscrapers in the background with hundreds of lit windows. In the distance we can see the bat signal has been raised."
         />
       </figure>
     </section>
+    <footer>
+      <a href="https://strangeobject.space/@james" rel="me noopener noreferrer">
+        mastodon
+      </a>
+      |
+      <a href="https://jmes.tech" rel="noopener noreferrer"> blog </a>
+      |
+      <a href="https://home.omg.lol/referred-by/jmes"
+        >built by me, powered by
+        <span class="logotype"
+          >omg<span class="logotype dot" style="color: #f06595">.</span
+          >lol</span
+        >
+      </a>
+    </footer>
     <div id="modal" class="modal">
       <span id="close">&times;</span>
       <img class="modal-content" id="modal-image" />
